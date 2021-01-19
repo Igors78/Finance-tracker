@@ -13,8 +13,11 @@
 </head>
 
 <body>
-    <%= render 'layouts/error_messages' %>
-    <%= yield %>
+    <div class="container-fluid">
+        <%= render 'layouts/navbar' %>
+        <%= render 'layouts/error_messages' %>
+        <%= yield %>
+    </div>
 </body>
 
 </html>
