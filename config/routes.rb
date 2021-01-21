@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  resources :user_stocks
+  resources :user_stocks, only: [:create]
   get 'stocks/search'
   devise_for :users
   root 'welcome#index'
