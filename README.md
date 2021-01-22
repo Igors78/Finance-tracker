@@ -1,10 +1,6 @@
-# Message Me
+# Finance tracker
 
 ## Summary
-
-### Objectives
-
-- Construct a bi-directional action cable channel for live chat messaging between users
 
 ![screenshot](screenshot.png)
 
@@ -19,13 +15,14 @@
 - Adding gems for extra features
 - Authentication
 - Multiple level data models associations and relationships
-- Action cable usage
+- AJAX requests handling
+- Consuming external source API
 
 ## Getting Started
 
-- This app is functional messaging chat. Every logged in user can post messages in the chat and all users logged in see this message live on their screen in real time.
+- This app is functional financial stock tracker. Every logged in user can search for stock records live from IEX Cloud service API, track stock records and see what stock is tracked by friends.
 
-  [Live Demo Link](https://message-me-action-cable.herokuapp.com/)
+  [Live Demo Link]()
 
 ## On your Computer
 
@@ -43,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 ## Install
 
 - Go to your preferred directory
-- Run `git clone https://github.com/Igors78/Message-me-app.git` command
+- Run `git clone` command
 - Install Rails with all dependencies in order to run local server and app in
   it:
 - `install Rails`
@@ -67,7 +64,6 @@ To get a local copy up and running follow these simple example steps.
 - Ruby 3.0.0
 - Ruby on Rails 6.1.1
 - Bootstrap
-- Semantic UI
 - Gems used listed in Gemfile
 
 ## Author

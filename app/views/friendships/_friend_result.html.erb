@@ -3,11 +3,10 @@
 </div>
 <% if @friend %>
 <div class="card card-header results-block">
-    <strong>Email: </strong><%= @friend.email %>
-    <strong>First Name: </strong><%= @friend.first_name %>
-    <strong>Last Name: </strong><%= @friend.last_name %>
-    <%= link_to 'Add to portfolio', user_stocks_path(user: current_user,
-                                                     ticker: @stock.ticker),
+    <strong>Email: </strong><%= @friend %>
+    <strong>First Name: </strong><%= @friend %>
+    <strong>Last Name: </strong><%= @friend %>
+    <%= link_to 'Follow', '#',
                                     class: 'btn btn-success btn-sm',
                                     method: :post %>
 </div>
