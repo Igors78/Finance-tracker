@@ -2,6 +2,7 @@
 
 Rails.application.routes.draw do
   resources :user_stocks, only: %i[create destroy]
+  resources :friendships, only: %i[index]
   get 'stocks/search'
   devise_for :users
   root 'welcome#index'
