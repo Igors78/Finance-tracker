@@ -3,6 +3,14 @@ class FriendshipsController < ApplicationController
     @friends = current_user.friends
   end
 
+  def destroy
+    friendship = current_user.friendships.where(friend_id: params[:id]).first
+    friendship.destroy
+
+    flash[:notice] = 'Stopped following!'
+    redirect_to friendships_path
+  end
+
   def search
     if params[:friend].present?
       @friends = User.search_friend(params[:friend])
