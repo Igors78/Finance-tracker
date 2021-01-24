@@ -15,7 +15,7 @@
                     <th scope="row"><%= friend.email %></th>
                     <td><%= friend.first_name %></td>
                     <td><%= friend.last_name %></td>
-                    <td><%= link_to "View", user_path(friend),
+                    <td><%= link_to "View", user_show_path(friend),
                                     class: 'btn btn-success btn-sm' %>
                         <%= link_to 'Stop following', friendship_path(friend),
                                     method: :delete,

@@ -1,7 +1,5 @@
 # Finance tracker
 
-## Summary
-
 ![screenshot](screenshot.png)
 
 ### Project created for learning purposes, covering the basics of Ruby on Rails including, but not limited to
@@ -22,7 +20,7 @@
 
 - This app is functional financial stock tracker. Every logged in user can search for stock records live from IEX Cloud service API, track stock records and see what stock is tracked by friends.
 
-  [Live Demo Link]()
+  [Live Demo Link](https://finance-track-app.herokuapp.com/)
 
 ## On your Computer
 
