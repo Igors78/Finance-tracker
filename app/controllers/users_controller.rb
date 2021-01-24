@@ -9,5 +9,6 @@ class UsersController < ApplicationController
   def show_user
     @user = User.find(params[:id])
     @tracked_stocks = @user.stocks
+    render 'show_user'
   end
 end
